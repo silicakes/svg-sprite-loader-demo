@@ -8,10 +8,8 @@ export default class Icon extends React.Component<any, never> {
 
     render() {
         let {width, height, glyph} = this.props;
-                    console.log(this.props)
-
         return (
-            <svg className={this.props.className} width={width} height={height} viewBox={glyph.viewBox}>
+            <svg className={this.props.className} width={width} height={height} viewBox={glyph.viewBox} onClick={this.props.onClick}>
                 <use xlinkHref={glyph.url}></use>
             </svg>
         )

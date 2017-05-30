@@ -1,8 +1,8 @@
 .arrow {
 	width: 250px;
 	height: 250px;
-	bordeR: 1px solid #ccc;
-	background: url(../../assets/arrow.svg);
+	border: 1px solid #ccc;
+	background: url(../../assets/plus.svg);
 }
 
 
@@ -10,4 +10,14 @@
 	width: 500px;
 	height: 500px;
 	border: 1px solid #ccc;
+}
+
+.select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #ccc;
+	padding: 5px 20px 5px 5px;
+	background-image: url("../../assets/arrow.svg");
+	outline: none;
 }

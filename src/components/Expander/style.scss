@@ -1,0 +1,25 @@
+.expander {
+	.content {
+		height: 20px;
+		transition: height .25s ease-in;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	&.expanded {
+		.content  {
+			height: 40px;
+		}
+
+		.arrow {
+			transform: rotate(180deg);
+		}
+	} 
+
+	.arrow {
+		display: block;
+		margin: 0 auto;
+		transition: transform .25s ease-in;
+		cursor: pointer;
+	}
+}
